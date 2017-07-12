@@ -15,7 +15,7 @@ var App = React.createClass({
 				<Link to="/" className={ getActiveClass('/')}>Home</Link>
 			</header>
 			<main>
-				<h1>App</h1>
+				<h1>App Name</h1>
 				{this.props.children}
 			</main>
 		</div>
